@@ -1,10 +1,10 @@
 #ALIAS
 
-alias list='ls -la'
+alias list='ls -la -sort'
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 alias cwd='printf "%q\n" "$(pwd)" | pbcopy'
 alias open='nautilus'
-
+alias sopen='sudo nautilus'
 
 
