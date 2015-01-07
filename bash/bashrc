@@ -1,0 +1,6 @@
+# bash profile
+
+source ~/bin/dotfiles/bash/env
+source ~/bin/dotfiles/bash/prompt
+source ~/bin/dotfiles/bash/alias
+

@@ -1,0 +1,7 @@
+#ENVIRONMENT
+
+export PATH="$PATH":~/bin
+
+#VIRTUALENV
+export WORKON_HOME="$HOME/.virtualenvs"
+source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
