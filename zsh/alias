@@ -7,11 +7,11 @@ alias cwd='printf "%q\n" "$(pwd)" | pbcopy'
 alias open='nautilus'
 alias sopen='sudo nautilus'
 alias ccc='c++ -std=c++11'
-alias proxynu='export http_proxy=http://10.1.1.10
-               export https_proxy=https://10.1.1.10
-               export HTTP_PROXY=http://10.1.1.10
-               export HTTPS_PROXY=https://10.1.1.10
-               export ftp_proxy=ftp://10.1.1.10'
+alias proxynu='export http_proxy=http://10.1.1.10:3128
+               export https_proxy=https://10.1.1.10:3128
+               export HTTP_PROXY=http://10.1.1.10:3128
+               export HTTPS_PROXY=https://10.1.1.10:3128
+               export ftp_proxy=ftp://10.1.1.10:3128'
 alias proxyempty='export http_proxy=""
                export https_proxy=""
                export HTTP_PROXY=""
