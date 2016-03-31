@@ -4,5 +4,6 @@ export PATH="$PATH":~/bin
 
 #VIRTUALENV
 export WORKON_HOME="$HOME/.virtualenvs"
-source /etc/bash_completion.d/virtualenvwrapper
+source /usr/local/bin/virtualenvwrapper.sh
+
 
