@@ -82,3 +82,5 @@ export PATH="/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 
 source ~/bin/dotfiles/zsh/env
 source ~/bin/dotfiles/zsh/alias
+export PATH=/Library/PostgreSQL/9.6/bin/:$PATH
+

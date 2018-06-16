@@ -1,9 +1,9 @@
 #ALIAS
 
 alias list='ls -la --group-directories-first'
-alias pbcopy='xclip -selection clipboard'
-alias pbpaste='xclip -selection clipboard -o'
-alias cwd='printf "%q\n" "$(pwd)" | pbcopy'
+#alias pbcopy='xclip -selection clipboard'
+#alias pbpaste='xclip -selection clipboard -o'
+alias cwd='echo $(pwd)| pbcopy'
 alias open='nautilus'
 alias sopen='sudo nautilus'
 alias ccc='c++ -std=c++11'
